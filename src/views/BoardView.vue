@@ -1,16 +1,16 @@
 <template>
   <div>
-    <BoardComponent />
+    <Board />
   </div>
 </template>
 
 <script>
-import BoardComponent from '@/components/Board.vue'
+import Board from '@/components/Board.vue';
 
 export default {
   name: 'BoardView',
   components: {
-    BoardComponent
+    Board
   }
 }
 </script>
